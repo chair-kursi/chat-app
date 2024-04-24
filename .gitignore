@@ -1,0 +1,37 @@
+# Ignore node_modules directory in both client and server folders
+chat-app-client/node_modules/
+chat-app-server/node_modules/
+
+# Ignore .env files containing sensitive information
+chat-app-client/.env
+chat-app-server/.env
+
+# Ignore build output and other generated files
+chat-app-client/build/
+chat-app-server/build/
+chat-app-client/dist/
+chat-app-server/dist/
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore user-specific files
+*.iml
+*.DS_Store
+
+# Ignore npm-debug.log
+npm-debug.log*
+
+# Ignore yarn lockfiles
+yarn.lock
+
+# Ignore any files or folders not specified above
+**/node_modules
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Ignore .vscode directory
+.vscode/
